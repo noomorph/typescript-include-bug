@@ -1,0 +1,28 @@
+{
+  "name": "typescript-include-bug",
+  "version": "1.0.0",
+  "description": "Demo of TypeScript compiler bug - omits required for compilation *.d.ts files if they have adjacent *.ts files with same names",
+  "main": "dist/index.js",
+  "scripts": {
+    "test:bug": "tsc -p tsconfig.include.bug.json",
+    "test:smoke": "tsc -p tsconfig.include.ok.json",
+    "test": "npm run test:smoke && echo \"Now watch the bug...\" && npm run test:bug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/noomorph/typescript-include-bug.git"
+  },
+  "keywords": [
+    "typescript",
+    "bug"
+  ],
+  "author": "Yaroslav Serhieiev <noomorph@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/noomorph/typescript-include-bug/issues"
+  },
+  "homepage": "https://github.com/noomorph/typescript-include-bug#readme",
+  "devDependencies": {
+    "typescript": "^2.1.5"
+  }
+}
