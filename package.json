@@ -23,6 +23,6 @@
   },
   "homepage": "https://github.com/noomorph/typescript-include-bug#readme",
   "devDependencies": {
-    "typescript": "^2.2.0-dev.20170129"
+    "typescript": "^2.2.0-dev.20170130"
   }
 }

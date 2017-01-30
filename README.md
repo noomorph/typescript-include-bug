@@ -1,15 +1,17 @@
 # TypeScript "include" bug demo
 
-Run `npm install && npm test` or take a look at [Travis CI page of this demo](https://travis-ci.org/noomorph/typescript-include-bug).
+This repository is demonstrating the issue [#13739](https://github.com/Microsoft/TypeScript/issues/13739).
 
-The demo is using `typescript@next`. The issue reproduces on stable versions too.
+Run `npm install && npm test` or take a look at [Travis CI page of this demo](https://travis-ci.org/noomorph/typescript-include-bug).  [![Build Status](https://travis-ci.org/noomorph/typescript-include-bug.svg?branch=master)](https://travis-ci.org/noomorph/typescript-include-bug)
+
+In order to reproduce the issue, `typescript@next` is used, but the issue reproduces on stable versions of TS (`2.0.10`, `2.1.5`) as well.
 
 ### Question
 
 Is this behavior absolutely intended?
 
-- if so, what are the official recommendations for such cases?
-- if not, is it a bug or lack of configuration possibilities?
+* If yes, what are the official recommendations for such cases? It is obviously not a documented behavior (examine http://www.typescriptlang.org/docs/handbook/tsconfig-json.html ). Could you explain why does this behavior exist, please?
+* If that is not something intended, do you think it is a bug or lack of configuration possibilities? I think I can work on a pull request, but I need more details for that.
 
 ### My issue
 
