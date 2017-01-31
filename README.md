@@ -15,7 +15,7 @@ Is this behavior absolutely intended?
 
 ### My issue
 
-I've got a big TypeScript project (1000+ files) using home-grown `filesGlob` hack solution very similar to the Atom's one:
+I've got a big TypeScript project (1000+ files) using hacky `filesGlob` solution from [grunt-ts](https://github.com/TypeStrong/grunt-ts) very similar to the Atom's one:
 
 https://github.com/TypeStrong/atom-typescript/blob/master/docs/tsconfig.md#filesglob
 
